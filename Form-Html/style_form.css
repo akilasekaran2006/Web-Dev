@@ -1,0 +1,21 @@
+input {
+    margin: 20px;
+}
+
+
+.formClass {
+    width: 80%;
+    
+    
+}
+
+.submitDiv {
+     text-align: center;
+    width: 50%;
+}
+
+.submitDiv input{
+    padding: 20px;
+    line-height: 100px;
+    
+}

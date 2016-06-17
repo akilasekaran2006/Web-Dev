@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: red;
+}
+.container {
+    background-color: #54545f
+}
+. bgBlack {
+    background: black !important;
+}
+
+.topWhiteBar {
+    min-height: 100px;
+    background: #ffff9f;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.logo img{
+    height: 100px;
+/*    margin: 0 20px;*/
+}
+
+.logo_img {
+    width:40px; 
+    height:40px;
+    margin-top:-10px;
+}
+.topMenuBar{
+    width: 70%;
+    float: left;
+}
+
+.topMenuBar a{
+    text-decoration: none;
+    color: darkgrey;
+    font-family: monospace;
+    font-size: 20;
+}
+
+.menuList {
+   margin: 0px;
+    padding: 0px;
+}
+
+.listItem {
+    float: left;
+    list-style: none;
+    margin:  0 10px;
+    line-height: 100px;
+}
+
+.topRightMenu {
+    float: right;
+}
+
+
+

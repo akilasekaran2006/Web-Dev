@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Sign Up Form
+        </title>
+        <link rel="stylesheet" type="text/css" href="style_form.css">
+    </head>
+    <body>
+        <div class="formClass">
+              <form action="/signup" method="post">
+            
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+                <label for="pass">Password</label>
+                <input type="password" name="password" id="pass">
+            <br/>
+           
+            
+                <label for="dob">Date of Birth</label> 
+                <input type="date" name="dob" id="dob">
+            
+            <br/>
+                <label for="ph">Phone Number</label>
+                <input type="tel" name="phonenumber" id="ph">
+            
+                <label for="email">Email Address</label>
+                <input type="email" name="emailid" id="email">  
+            <br/>    
+            
+                <label for="uname">Username</label>
+                <input type="text" name="emailid" id="uname"> 
+            <br/>
+            
+                <input type="radio" name="gender" value="female" checked id="gender"> Female
+                <input type="radio" name="gender" value="male" id="gender"> Male
+            <br/>
+          
+                <label for="subscription">Subscribe the following</label>
+                <input type="checkbox" name="subscribe" value="news" checked id="subscription"> Newsletters
+                <input type="checkbox" name="subscribe" value="feed" id="subscription"> Feed
+                <input type="checkbox" name="subscribe" value="rss" id="subscription"> RSS
+            <br/>
+            
+            <div class="submitDiv">
+                <input type="submit" name="submit" value="Create Account">
+                  </div>
+            <br/>
+        </form>
+        </div> 
+    </body>
+</html>
